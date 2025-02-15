@@ -40,7 +40,6 @@ def main():
             'Sleep Hours':sleep_hr,
             'Sample Question Papers Practiced':solved_paper
 
-
         }
         prediction = predict_data(user_data)
         st.success(f'your performance is {prediction}')
